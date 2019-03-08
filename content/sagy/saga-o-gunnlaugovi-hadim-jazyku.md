@@ -1,8 +1,8 @@
 ---
 title: Sága o Gunnlaugovi Hadím jazyku
-date: 2018-03-22
----
+date: 2018-03-22 00:00:00 +0000
 
+---
 ## [1. Helginy rodiče Thorstein a Jófríd](#1) {#1}
 
 Thorstein se jmenoval muž; byl synem Egila, syna Skalagrímsona, syna Kveldúlfa, herse z Norska; Ásgerd slula Thorsteinova matka a byla dcerou Bjórnovou. Thorstein bydlil na dvorci Borgu v Borgarfjordu; byl zámožný a velmi vážený muž, moudrý a dobromyslný a umírněný ve všech věcech, nevyznačoval se vzrůstem ani silou, jako jeho otec Egil, ale přes to byl obrovité síly a oblíbený u všech lidí. Thorstein byl krásný člověk; měl bílé vlasy a nejkrásnější oči. Za ženu měl Jófrídu, dceru Gunnara, syna Hlífova. Jófrídě bylo osmnácte zim, když ji Thorstein dostal; byla vdovou. Před tím ji měl Thórodd, Tungu-Oddův syn, a byla jejich dcerou Húngerd, jež se narodila na Borgu u Thorsteina. Jófríd byla velmi řádná žena. Měla s Thorsteinem mnoho dětí, ač jen málo jich přichází v tomto vyprávění; Skúli byl nejstarší syn, druhý Kollsvein, třetí Egil.
@@ -339,7 +339,8 @@ odešla nám bílá,
 Thorkelův teď úděl  
 tichý je a trudný.
 
-Helga byla převezena do kostela, ale Thorkel tam pak ještě dlouho bydlil. A Helgina smrt, jak se dalo očekávat, vzbudila ve všech lidech hluboký zármutek.  
+Helga byla převezena do kostela, ale Thorkel tam pak ještě dlouho bydlil. A Helgina smrt, jak se dalo očekávat, vzbudila ve všech lidech hluboký zármutek.
+
 A zde se končí sága o Gunnlaugovi Hadím Jazyku.
 
 _Zdroj: Saga o Gunnlaugovi, Hadím jazyku. Přeložil Emil Walter. Praha: Ludvík Bradáč, 1919._
