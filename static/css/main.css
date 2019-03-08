@@ -1,0 +1,154 @@
+/**
+blue rgb(9,58,137)
+brown rgb(71,59,36)
+*/
+
+body {
+	background: url('/images/bg-body.png') repeat rgb(230,226,201);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Source Sans Pro", Georgia, serif;
+}
+
+.site {
+	border-color: rgb(71,59,36);
+}
+
+.site-header {
+	background: url('/images/bg-header.png') repeat rgb(71,59,36);
+	-webkit-box-shadow: 0 .5rem .5rem 0 rgba(71,59,36,0.5);
+	box-shadow: 0 .5rem .5rem 0 rgba(71,59,36,0.5);
+}
+
+.logo-header>a {
+	position: relative;
+	padding-bottom: 1rem;
+	display: block;
+}
+.site-header .site-logo {
+	position: absolute;
+	top: 0;
+	left: 1rem;
+	z-index: 100;
+}
+.site-title, .site-description {
+	margin-left: 265px;
+	color: rgb(242,240,229);
+}
+.site-title {
+	padding: 2rem 0 .5rem;
+	margin-bottom: 0;
+	line-height: 1;
+	text-shadow: 0 .3rem .3rem rgb(0,0,0);
+	font-size: 340%;
+	font-weight: 700;
+}
+.site-header a:hover,
+.site-title:hover {
+	text-decoration: none;
+}
+.site-description {
+	font: 300 italic 110% "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.main-navigation {
+	background-color: rgba(9,58,137,0.7);
+	color: #cccccc;
+	font-size: 80%;
+}
+.main-navigation .navbar-brand,
+.main-navigation .navbar-toggler {
+	display: none;
+}
+.main-navigation li>a {
+	color: rgb(242,240,229);
+	text-shadow: 0 .1rem 0 #333;
+}
+.main-navigation li>a:hover {
+	background: rgba(71,59,36,0.7);
+}
+.main-navigation .navbar {
+	padding: 0 0 0 250px;
+}
+.main-navigation .navbar-expand-lg .navbar-nav  .nav-link {
+	padding: 1rem 1rem .9rem;
+}
+
+
+.site-content {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+.site-content>.container {
+	background: rgba(255, 255, 255, 0.4);
+	padding: 2rem 3rem;
+	min-height: 400px;
+}
+.site-content a {
+	color: #bc360a;
+}
+.site-content h1 {
+	margin-bottom: 2rem;
+}
+.site-content h2 {
+	margin-top: 2.5rem;
+	margin-bottom: 1.5rem;
+}
+.site-content h3 {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+}
+
+
+.site-content>.homepage {
+	background: none;
+	padding: 2rem 0;
+}
+.homepage>.row>.col-sm {
+	margin: 0 1rem;
+	padding: 2rem 1.5rem;
+}
+.homepage a {
+	color: rgb(71,59,36);
+}
+.homepage ul {
+	list-style: none;
+	padding: 0 10px;
+}
+.homepage li {
+	padding: 0 0 3px;
+}
+#index-box-sagy { background: rgba(255, 255, 255, 0.4) url('/images/bg-box-sagy.png') no-repeat 95% 2rem; }
+#index-box-runy { background: rgba(255, 255, 255, 0.4) url('/images/bg-box-runy.png') no-repeat 97% 1.5rem; }
+#index-box-asatru { background: rgba(255, 255, 255, 0.4) url('/images/bg-box-asatru.png') no-repeat 97% 2rem; }
+#index-box-yggdrasil { background: url('/images/bg-box-yggdrasil.png') no-repeat 105% -15px; }
+#index-box-horn { background: url('/images/bg-box-horn.png') no-repeat 103% -5px; }
+#index-box-valknut { background: url('/images/bg-box-valknut.png') no-repeat 103% -5px; }
+
+.site-footer {
+	background: url('/images/bg-header.png') repeat rgb(71,59,36);
+	color: rgb(255,255,255);
+	padding: 1.5rem 0;
+	font-size: 80%;
+}
+.site-footer a {
+	color: rgb(255,255,255);
+}
+
+.entry-header, .entry-content, .entry-summary, .entry-meta, .paging-navigation .nav-links, .site-main .mu_register {
+    max-width: 1024px;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 15px 20px;
+}
+.entry-header > .entry-meta {
+	background: none;
+	padding: inherit;
+}
+
+input.wpcf7-submit {
+	color: #141412;
+}
+
+

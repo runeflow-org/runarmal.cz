@@ -1,0 +1,33 @@
+baseURL: 'https://runarmal.cz/'
+languageCode: cz-cs
+title: Rûnarmál
+
+params:
+  description: 'Rûnarmál | Ásatrú, runy, severská mytologie a Vikingové'
+  customDateFormat: 'Jan 1, 2019'
+  googleAnalytics: UA-2081861-4
+  email: info@runarmal.cz
+
+menu:
+  main:
+    - name: Hlavní stránka
+      url: /
+      weight: 1
+    - name: Ságy a poezie
+      url: /sagy
+      weight: 2
+    - name: Runy
+      url: /runy
+      weight: 3
+    - name: Ásatrú
+      url: /asatru
+      weight: 4
+    - name: Kalendář
+      url: /kalendar-runovych-mesicu
+      weight: 5
+    - name: Staroseverština
+      url: /staroseverstina
+      weight: 6
+    - name: Kontakt
+      url: /kontakt
+      weight: 7

@@ -1,0 +1,31 @@
+<div class="site-header">
+  <div class="container">
+    <header class="logo-header" role="banner">
+      <a href="/" title="Rûnarmál" rel="home">
+        <img class="site-logo" src="/images/triskelion.png" />
+        <h1 class="site-title">Rûnarmál</h1>
+        <h2 class="site-description">Ásatrú, runy, severská mytologie a Vikingové</h2>
+      </a>
+    </header>
+  </div>
+  <div class="main-navigation">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg" role="navigation">
+        <a class="navbar-brand" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            <li class="nav-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+              <a class="nav-link" href="{{ .URL }}"><span>{{ .Name }}</span></a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
